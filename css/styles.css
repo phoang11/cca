@@ -1,0 +1,110 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 140px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Branding  and Navigation */
+
+.navbar {
+	border: none;
+}
+
+.navbar-brand {
+	height: 140px;
+}
+
+.navbar-nav {
+    margin: 38px 0 0;
+
+}
+.navbar-inverse {  
+	background: rgba(0, 0, 0, 0) url("../images/header2.jpg") no-repeat center;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	font-size: 18px;
+}
+
+/* Home page */
+
+.home-title {
+	margin: 10px 0 20px;
+}
+
+.home-panel {
+    border: 0px solid transparent;
+    box-shadow: 1px 17px 25px -8px rgba(0,0,0,1.05);
+}
+
+.home-panel .panel-heading{
+    color: #B9B9B9;
+    background: rgba(0, 0, 0, 0) url("../images/panel-heading.jpg") no-repeat;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 20px 0;
+    color: #B9B9B9;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-wrapper{
+    background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat center;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+	.navbar-inverse {  
+		background-color: #222;
+	    border-color: #080808;
+	}
+	
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+	.navbar-inverse {  
+		background-color: #222;
+	    border-color: #080808;
+	}
+
+}
