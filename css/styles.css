@@ -95,11 +95,18 @@ footer {
 }
 
 @media(max-width:767px) {
+	body{
+		padding-top: 50px;
+	}
 	.navbar-brand {
 		min-height: 50px;
 		padding: 0 15px;
 	}
 	.navbar-inverse {
 		background: rgba(0, 0, 0, 0) url("../images/header-mobile.jpg") repeat;
+	}
+	.home-panel {
+	    border: 1px solid #CCCCCC;
+	    box-shadow: none;
 	}
 }
