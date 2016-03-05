@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    /*padding-top: 140px;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 140px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -35,8 +35,8 @@ body {
 
 .navbar-nav {
     margin: 38px 0 0;
-
 }
+
 .navbar-inverse {  
 	background: rgba(0, 0, 0, 0) url("../images/header2.jpg") no-repeat center;
 }
@@ -58,7 +58,7 @@ body {
 
 .home-panel .panel-heading{
     color: #B9B9B9;
-    background: rgba(0, 0, 0, 0) url("../images/panel-heading.jpg") no-repeat;
+    background: rgba(0, 0, 0, 0) url("../images/panel-heading.jpg") repeat-x;
 }
 
 /* 404 Page Styles */
@@ -73,35 +73,33 @@ footer {
     margin: 20px 0;
     color: #B9B9B9;
     font-size: 12px;
-    font-weight: bold;
+/*    font-weight: bold;*/
 }
 
 .footer-wrapper{
-    background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat center;
+    background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat right;
 }
 
 /* Responsive Styles */
 
 @media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-	.navbar-inverse {  
-		background-color: red;
-	    border-color: #080808;
+	.navbar-brand{
+		min-height: 80px;
 	}
-	
+	.navbar-nav {
+	    margin: 0;
+	}
+	.navbar-inverse {
+		background: rgba(0, 0, 0, 0) url("../images/header-mobile.jpg") repeat;
+	}
 }
 
 @media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
-	.navbar-inverse {  
-		background-color: yellow;
-	    border-color: #080808;
+	.navbar-brand {
+		min-height: 50px;
+		padding: 0 15px;
 	}
-
+	.navbar-inverse {
+		background: rgba(0, 0, 0, 0) url("../images/header-mobile.jpg") repeat;
+	}
 }
