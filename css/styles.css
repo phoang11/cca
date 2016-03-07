@@ -23,6 +23,10 @@ blockquote {
     margin-bottom: 30px;
 }
 
+.img-portfolio img {
+	margin-bottom: 10px;
+}
+
 .img-hover:hover {
     opacity: 0.8;
 }
