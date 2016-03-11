@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Colorbox CSS -->
+    <link href="/css/colorbox.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="/css/styles.css" rel="stylesheet">
 
@@ -83,12 +86,12 @@
       
         <!-- Group photo -->
         <div class="row">
-            <div class="col-md-8">
-                <img class="img-responsive img-hover" src="/gallery/kt-newport-2013-01.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/kt-newport-2013-02.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/kt-newport-2013-03.jpg" alt="">
+            <div class="col-md-7">
+                <a class="gallery1" href="kt-newport-2013-01.jpg"><img class="img-responsive img-hover" src="/gallery/kt-newport-2013-01.jpg" alt=""></a>
+                <a class="gallery1" href="/gallery/kt-newport-2013-02.jpg"></a>
+                <a class="gallery1" href="/gallery/kt-newport-2013-03.jpg"></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h3>KT Audio Imports</h3>
                 <h4>May 29-June 2 2013 Newport Beach, California Show</h4>
                 <p>Tonearm cables made by Crystal Clear Audio cables.</p>
@@ -99,11 +102,11 @@
 
         <!-- Group photo -->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <img class="img-responsive img-hover" src="/gallery/atem-hifi-audio-show-moscow-01.jpg" alt="">
                 <img class="img-responsive img-hover" src="/gallery/atem-hifi-audio-show-moscow-02.jpg" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h3>ATEM-Hifi</h3>
                 <h4>Audio Show at Moscow, Russia</h4>
                 <p>ATEM-Hifi is the distributor of CCAC in Russia</p>
@@ -114,7 +117,7 @@
 
                 <!-- Group photo -->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <img class="img-responsive img-hover" src="/gallery/demo_room-01.jpg" alt="">
                 <img class="img-responsive img-hover" src="/gallery/demo_room-02.jpg" alt="">
                 <img class="img-responsive img-hover" src="/gallery/demo_room-03.jpg" alt="">
@@ -124,7 +127,7 @@
                 <img class="img-responsive img-hover" src="/gallery/demo_room-07.jpg" alt="">
                 <img class="img-responsive img-hover" src="/gallery/demo_room-08.jpg" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h3>CCAC Customer</h3>
                 <h4>Long Beach, California</h4>
                 <p>Whole system with Crystal Clear Audio Cables</p>
@@ -135,10 +138,10 @@
 
                 <!-- Group photo -->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <img class="img-responsive img-hover" src="/gallery/carsten-system.jpg" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h3>Carsten Christensen</h3>
                 <h4>Viborg Musik & HiFiklub</h4>
                 <p>As you can see the new furniture are now installed - so is the cables and off course the nextgen connectors. <br>The results are absolutely outstanding.</p>
@@ -149,11 +152,11 @@
 
                 <!-- Group photo -->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <img class="img-responsive img-hover" src="/gallery/michaelg-01.jpg" alt="">
                 <img class="img-responsive img-hover" src="/gallery/michaelg-02.jpg" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h3>Michael G</h3>
                 <h4>Colorado</h4>
                 <p>A great compliment to my system. I really love you cables, The best out there.</p>
@@ -165,10 +168,10 @@
         <!-- Contact Us Section -->
         <div class="well">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <p>Please don't hesitate to contact us for any other inquiry about our products. If you would like to give us feedback about our product please send email at sales@crystalclearaudio.com.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <a class="btn btn-lg btn-default btn-block" href="#">Contact Us</a>
                 </div>
             </div>
@@ -200,6 +203,38 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Colorbox JavaScript -->
+    <script src="/js/jquery.colorbox-min.js"></script>
+
+    <!-- Custom Colorbox -->
+    <script>
+        $(document).ready(function () {
+            
+            $('a.gallery').colorbox({
+                transition: "elastic",
+                opacity:0.5,
+                rel:'group1',
+                preloading: true,
+                escKey: true,
+                current: "{current}/{total}",
+                arrowKey: true,
+                retinaImage: true,
+            });
+
+            $('a.gallery2').colorbox({
+                transition: "elastic",
+                opacity:0.5,
+                rel:'group2',
+                preloading: true,
+                escKey: true,
+                current: "{current}/{total}",
+                arrowKey: true,
+                retinaImage: true,
+            });
+
+        });
+        </script>
 
 </body>
 
