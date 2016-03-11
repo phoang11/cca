@@ -12,6 +12,9 @@ body {
 blockquote {
 	font-size: 12px;
 }
+blockquote footer{
+	margin: 0;
+}
 
 .img-portfolio {
   margin-bottom: 30px;
