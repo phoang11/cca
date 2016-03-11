@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Colorbox CSS -->
+    <link href="/css/colorbox.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="/css/styles.css" rel="stylesheet">
 
@@ -125,7 +128,9 @@
         <p>If you’re interested in learning more about interconnect theory, about why Crystal Clear Audio interconnects are among the very, very best sounding interconnects you can buy at <strong>any price</strong>, and about our product lines and prices, please visit our website. Browse and inform yourself at your leisure. What have you got to lose? Nothing! Fact is, you may put some change in your pocket by selling those expensive interconnects you now own.</p>
 
          <h3>Customer Feedbacks</h3>
-
+        <div>
+          <a class="audio-review-iframe" href="http://www.audioreview.com/cat/cables/speaker-cables/crystal-clear-audio/reference-interconnects/prd_142984_1584crx.aspx"><img src="/images/audio_review.gif">Audio Review</a>
+        </div>
         <blockquote class="bs-callout bs-callout-info bg-info">
           <p>Mel,</p>
           <p>Here is my non-clinical review of your new Studio Reference USB cable and my two setups so far:</p>
@@ -185,6 +190,18 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function () {
+
+        $('a.audio-review-iframe').colorbox({
+            iframe: true,
+            width:"95%",
+            height:"80%",
+        });
+
+    });
+    </script>
 
 </body>
 
