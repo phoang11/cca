@@ -87,7 +87,7 @@
         <!-- Group photo -->
         <div class="row">
             <div class="col-md-7">
-                <a class="gallery1" href="kt-newport-2013-01.jpg"><img class="img-responsive img-hover" src="/gallery/kt-newport-2013-01.jpg" alt=""></a>
+                <a class="gallery1" href="/gallery/kt-newport-2013-01.jpg"><img class="img-responsive img-hover" src="/gallery/kt-newport-2013-01.jpg" alt=""></a>
                 <a class="gallery1" href="/gallery/kt-newport-2013-02.jpg"></a>
                 <a class="gallery1" href="/gallery/kt-newport-2013-03.jpg"></a>
             </div>
@@ -103,8 +103,8 @@
         <!-- Group photo -->
         <div class="row">
             <div class="col-md-7">
-                <img class="img-responsive img-hover" src="/gallery/atem-hifi-audio-show-moscow-01.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/atem-hifi-audio-show-moscow-02.jpg" alt="">
+                <a class="gallery2" href="/gallery/atem-hifi-audio-show-moscow-01"><img class="img-responsive img-hover" src="/gallery/atem-hifi-audio-show-moscow-01.jpg" alt=""></a>
+                <a class="gallery2" href="/gallery/atem-hifi-audio-show-moscow-02.jpg"></a>
             </div>
             <div class="col-md-5">
                 <h3>ATEM-Hifi</h3>
@@ -118,14 +118,14 @@
                 <!-- Group photo -->
         <div class="row">
             <div class="col-md-7">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-01.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-02.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-03.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-04.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-05.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-06.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-07.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/demo_room-08.jpg" alt="">
+                <a class="gallery3" href="/gallery/demo_room-01.jpg"><img class="img-responsive img-hover" src="/gallery/demo_room-01.jpg" alt=""><a>
+                <a class="gallery3" href="/gallery/demo_room-02.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-03.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-04.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-05.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-06.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-07.jpg"></a>
+                <a class="gallery3" href="/gallery/demo_room-08.jpg"></a>
             </div>
             <div class="col-md-5">
                 <h3>CCAC Customer</h3>
@@ -153,8 +153,9 @@
                 <!-- Group photo -->
         <div class="row">
             <div class="col-md-7">
-                <img class="img-responsive img-hover" src="/gallery/michaelg-01.jpg" alt="">
-                <img class="img-responsive img-hover" src="/gallery/michaelg-02.jpg" alt="">
+                <a class="gallery4" href="/gallery/michaelg-01.jpg">
+                <img class="img-responsive img-hover" src="/gallery/michaelg-01.jpg" alt=""></a>
+                <a class="gallery4" href="/gallery/michaelg-02.jpg"></a>
             </div>
             <div class="col-md-5">
                 <h3>Michael G</h3>
@@ -211,7 +212,7 @@
     <script>
         $(document).ready(function () {
             
-            $('a.gallery').colorbox({
+            $('a.gallery1').colorbox({
                 transition: "elastic",
                 opacity:0.5,
                 rel:'group1',
@@ -226,6 +227,28 @@
                 transition: "elastic",
                 opacity:0.5,
                 rel:'group2',
+                preloading: true,
+                escKey: true,
+                current: "{current}/{total}",
+                arrowKey: true,
+                retinaImage: true,
+            });
+
+            $('a.gallery3').colorbox({
+                transition: "elastic",
+                opacity:0.5,
+                rel:'group3',
+                preloading: true,
+                escKey: true,
+                current: "{current}/{total}",
+                arrowKey: true,
+                retinaImage: true,
+            });
+
+            $('a.gallery4').colorbox({
+                transition: "elastic",
+                opacity:0.5,
+                rel:'group4',
                 preloading: true,
                 escKey: true,
                 current: "{current}/{total}",
