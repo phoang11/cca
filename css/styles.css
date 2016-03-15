@@ -147,16 +147,13 @@ footer {
 .carousel-control.left {
 	background-image: none;
 }
-
 .carousel-control {
 	color: #333;
 }
-
 .carousel-control:hover,
 .carousel-control:focus {
   color: #CA0D0D;
 }
-
 .carousel-indicators li {
 	 background-color: #CCC;
 	 border: 1px solid #777;
@@ -172,9 +169,12 @@ footer {
 	color: #333;
 	text-shadow: none;
 }
-
 .carousel-caption h4 {
 	margin:0 0 10px 0;
+}
+
+.carousel-inner img {
+	max-height:400px;
 }
 /* Responsive Styles */
 
