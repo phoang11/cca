@@ -2,11 +2,11 @@
 
 html,
 body {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  padding-top: 140px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	padding-top: 140px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 blockquote {
@@ -17,7 +17,7 @@ blockquote footer{
 }
 
 .img-portfolio {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .img-portfolio img {
@@ -25,7 +25,7 @@ blockquote footer{
 }
 
 .img-hover:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 /* Branding  and Navigation */
@@ -58,30 +58,30 @@ blockquote footer{
 
 .home-panel {
  	border: 0px solid transparent;
-  box-shadow: 1px 17px 25px -8px rgba(0,0,0,1.05);
+  	box-shadow: 1px 17px 25px -8px rgba(0,0,0,1.05);
 }
 
 .home-panel .panel-heading{
  	color: #B9B9B9;
-  background: rgba(0, 0, 0, 0) url("../images/panel-heading.jpg") repeat-x;
+  	background: rgba(0, 0, 0, 0) url("../images/panel-heading.jpg") repeat-x;
 }
 
 /* 404 Page Styles */
 
 .error-404 {
-  font-size: 100px;
+  	font-size: 100px;
 }
 
 /* Footer Styles */
 
 footer {
-  margin: 20px 0;
-  color: #B9B9B9;
-  font-size: 12px;
+  	margin: 20px 0;
+	color: #B9B9B9;
+	font-size: 12px;
 }
 
 .footer-wrapper{
-  background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat right;
+  	background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat right;
 }
 
 /* BS Call Out */
@@ -142,6 +142,40 @@ footer {
   color: #5bc0de;
 }
 
+/* Carousel */
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control {
+	color: #333;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #CA0D0D;
+}
+
+.carousel-indicators li {
+	 background-color: #CCC;
+	 border: 1px solid #777;
+}
+.carousel-indicators .active {
+	background-color: #CA0D0D;
+}
+.carousel-caption {
+	position: relative;
+	right: auto;
+	left: auto;
+	margin: 10px 0 0 0;
+	color: #333;
+	text-shadow: none;
+}
+
+.carousel-caption h4 {
+	margin:0 0 10px 0;
+}
 /* Responsive Styles */
 
 @media(max-width:991px) {
