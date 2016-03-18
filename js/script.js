@@ -11,7 +11,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-								maxHeight: "90%",
+                maxHeight: "90%",
             });
 
             $('a.gallery2').colorbox({
