@@ -11,7 +11,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery2').colorbox({
@@ -25,7 +25,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery3').colorbox({
@@ -39,7 +39,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery4').colorbox({
@@ -53,7 +53,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery5').colorbox({
@@ -67,7 +67,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery6').colorbox({
@@ -81,7 +81,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery7').colorbox({
@@ -95,7 +95,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery8').colorbox({
@@ -109,7 +109,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery9').colorbox({
@@ -123,7 +123,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
             $('a.gallery10').colorbox({
@@ -137,7 +137,7 @@
                 retinaImage: true,
                 scalePhotos: true,
                 maxWidth: "90%",
-				maxHeight: "90%",
+								maxHeight: "90%",
             });
 
         });
