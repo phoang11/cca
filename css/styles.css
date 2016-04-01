@@ -143,9 +143,6 @@ footer {
 }
 
 /* Carousel */
-.carousel {
-	background-color: #d2d9f5;
-}
 .carousel-control.right,
 .carousel-control.left {
 	background-image: none;
